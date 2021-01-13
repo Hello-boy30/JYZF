@@ -1,13 +1,139 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+  color: #636363;
+}
+html{
+  min-width: 800px;
+}
+.smallPadding{
+  padding: 3px 5px 3px 5px;
+}
+.middlePadding{
+  padding: 10px;
+}
+.backC{
+  background-color: #cccccc;
+}
+.borderR{
+  border-radius: 5px;
+}
+.pB{
+  padding-bottom: 10px;
+}
+.pL{
+  padding-left: 10px;
+}
+.floatL{
+  float: left;
+}
+.floatR{
+  float:right;
+}
+.disF{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: '方正兰亭';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.sy{
+  padding:10px 40px 10px 16px;
+  margin: 0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ant-collapse-header{
+  padding: 10px 40px 10px 16px !important;
+}
+.header{
+  background-color: black;
+  line-height: 35px;
+  min-height: 35px;
+}
+.header div{
+  color: #ccc;
+  text-align: center;
+  cursor: pointer;
+}
+.content{
+  display: flex;
+}
+.content-right{
+  flex: 1;
+  background-color:white
+}
+
+.content-right p{
+  padding-bottom: 10px;
+}
+.content-left{
+  flex: 8;
+  background-color:#CCCCCC;
+  padding: 10px;
+}
+.content-left>.banner{
+  padding: 20px 10px;
+  height: 100px;
+  background-color: blueviolet;
+}
+.context{
+  display: flex;
+  padding-top: 10px;
+}
+.context-left{
+  flex: 3;
+}
+.data{
+  background-color:  white;
+  padding: 10px;
+}
+.check{
+  padding: 10px 10px 0 10px;
+  margin-top:10px;
+  background-color:  white;
+}
+.top{
+  margin-top: 10px;
+  padding: 15px;
+  background-color: white;
+}
+.context-right{
+  padding-left: 10px;
+  flex: 1;
+}
+.user{
+  padding: 10px;
+  background-color:  white;
+  display: flex;
+  align-items: center;
+}
+.user p{
+  padding-bottom: 8px;
+}
+.judge{
+  margin-top: 10px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+.notice{
+  margin-top: 10px;
+  padding: 15px;
+  background-color:  white;
+}
+.advertising{
+  margin-top: 10px;
+  height: 100px;
+  background-color:  white;
+}
+
+
