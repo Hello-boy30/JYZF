@@ -205,7 +205,8 @@ class App extends React.Component {
           <Col span={2}><img></img>用户名</Col>
         </Row>
         <div className='content'>
-          <div className='content-right'>
+          <div c
+          lassName='content-right'>
             <p className='sy'>首页</p>
             <Collapse ghost expandIconPosition='right'>
               <Panel header="新房管理" key="1">
